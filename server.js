@@ -7,7 +7,7 @@ var PORT = 3001;
 app.use(middleware.logger);
 
 app.get ('/about', middleware.requireAuthentication, function(req, res) {
-	res.send('Hello World!');
+	res.send('Hello World!!');
 });
 
 app.use(express.static(__dirname + '\\public'));
