@@ -16,6 +16,6 @@ app.use(express.static(__dirname + '\\public'));
 // 	res.send('Hello about!');
 // });
 
-app.listen(3001, function () {
+app.listen(PORT, function () {
 	console.log('Express server started on port ' + PORT);
 });
